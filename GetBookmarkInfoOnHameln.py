@@ -9,7 +9,7 @@ def post_ifttt(json):
         "https://maker.ifttt.com/trigger/"
         + "isUpdated"
         + "/with/key/"
-        + "ikH_VxOPXE8lXUBPT7tXkoT5QgjEkkiz5r0Xsx9T4Jr"
+        + # your ifttt key
     )
     requests.post(url, json)
 
